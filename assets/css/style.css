@@ -1,0 +1,707 @@
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../font/StagSans-Light.woff2') format('woff2'),
+        url('../font/StagSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../font/StagSans-Medium.woff2') format('woff2'),
+        url('../font/StagSans-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../font/StagSans-Regular.woff2') format('woff2'),
+        url('../font/StagSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #444;
+}
+
+a {
+  color: #4fa6d5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #45beff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#hero {
+  width: 100%;
+  height: 541px;
+  overflow: hidden;
+  position: relative;
+}
+#hero{
+  background: url("../img/Banner_mage.png") center top no-repeat; 
+  background-size: cover;
+}
+section#hero {
+    padding: 30px 0px;
+}
+#hero .asterContent h1 {
+	color: #FFFFFF;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 31px;
+	letter-spacing: 1.28px;
+	line-height: 40px;
+	text-align: left;
+}
+.asterLogo{
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+#hero .asterContent h2 {
+	color: #FFFFFF;
+  font-family: StagSans;
+  font-family: 'Stag Sans';
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  text-align: left;
+  font-weight: 300;
+}
+.book-an-appoinment {
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 14.4px;
+  line-height: 17px;
+  text-align: left;
+  background-color: #DD5A6A;
+  border-radius: 3.2px;
+  padding: 15px 20px;
+}
+.asterBtn {
+  margin-top:30px;
+}
+
+.home-right .php-email-form {
+    background-color: #FFFFFF;
+    box-shadow: -4px 2px 13px 0 rgb(85 95 126 / 18%);
+    padding: 27px;
+    margin-bottom: 20px;
+}
+.home-right .form-control {
+    font-family: 'Stag Sans';
+	font-weight:300;
+	font-size: 12.22px;
+	line-height: 2;
+	color: #213559;
+}
+.enquire-now {
+  color: #213559;
+  font-family: 'Stag Sans';
+  font-size: 20.08px;
+  line-height: 24px;
+  width: 127px;
+  text-align: left;
+  font-weight:500;
+}
+.asterSubmit {
+  color: #FFFFFF;
+    font-family: 'Stag Sans';
+    font-size: 14.84px;
+    line-height: 18px;
+    text-align: left;
+    border: 0px;
+    padding: 15px 30px;
+    background-color: #DD5A6A;
+}
+.rc-anchor-normal-footer {
+    display: inline-block;
+    height: 74px;
+    vertical-align: top;
+    width: 78px;
+    float: right;
+    padding-right: 18px;
+}
+.g-recaptcha .rc-anchor-normal {
+    height: 74px;
+    width: 389px !important;
+}
+.rc-anchor-light {
+    background: #ffffff;
+    color: #000;
+}
+.bone-marrow-transpla {
+  color: #FFFFFF;
+  font-family: 'Stag Sans';
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  /* background-image: radial-gradient(#2EC4B8, #6078EA ); */
+  background-image: linear-gradient(to right, #2EC4B8, #6078EA);
+  border-radius: 4px;
+	padding: 10px 20px;
+}
+.replacement-of-disea {
+  color: #000000;
+  font-family: Stag Sans;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  font-weight:300;
+}
+ section.about-us.aos-init.aos-animate {
+    padding: 30px 0px;
+}
+.medicines-and-in-cer {
+  color: #000000;
+  font-family: 'Stag Sans';
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  font-weight:300;
+}
+.doctorsMain-left {
+  background-color: #F9F9FF;
+  border-radius: 4px;
+  padding: 30px;
+}
+.doctorsMain {
+  color: #22B78E;
+  font-family: 'Stag Sans';
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+.doctorsTitle {
+  color: #22B78E;
+  font-family: 'Stag Sans';
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+}
+.doctorsName {
+  color: #1D5AA6;
+  font-family: 'Stag Sans';
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+.doctorsRole {
+  color: #1D5AA6;
+  font-family: 'Stag Sans';
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+  text-align: center;
+}
+.doctorsDesc {
+  color: #000000;
+  font-family: 'Stag Sans';
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.doctorsKnowmore {
+  color: #FFFFFF;
+  font-family: 'Stag Sans';
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+  background-image: linear-gradient(to right, #2EC4B8, #6078EA);
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.doctorsLine hr{
+	width: 50px;
+    display: inline-block;
+	color: #1D5AA6;
+	margin: 10px 0px;
+}
+.doctorsLine1 hr{
+	width: 90%;
+    display: inline-block;
+	color: #ccc;
+	margin: 10px 0px;
+}
+section.doctors {
+    padding: 30px 0px;
+}
+section.AsterAbout {
+    padding: 30px 0px;
+}
+.AsterAbout-Desc h2{
+	color: #22B78E;
+  font-family: 'Stag Sans';
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.AsterAbout-Desc p{
+	padding:0px 0px 0px 40px;
+	position:relative;
+	    margin-bottom: 20px;
+}
+.AsterAbout-Desc p::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    background: url(../img/hospital-icon.png) no-repeat;
+    background-position: 0 0%;
+}
+section.AsterSigns {
+    padding: 0px 0px 30px 0px;
+}
+.AsterSignsMain h2{
+	color: #22B78E;
+  font-family: 'Stag Sans';
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.services .icon-box {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+    border: 1px solid #fff;
+	background-color: #FFFFFF;
+	border: 1px solid #E5EAFF;
+	border-radius: 4px;
+	min-height: 198px;
+	box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+}
+.services .icon {
+    margin: 0 auto 0px auto;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+.services .description {
+  font-family: 'Stag Sans';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+}
+section.AsterAccordion {
+    padding: 10px 0px 30px 0px;
+}
+.AsterAccordion .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background: url(../img/icon12.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.AsterAccordion .accordion-button:not(.collapsed)::after {
+    background: url(../img/icon12.png) no-repeat;
+    transform: rotate(-180deg);
+}
+.AsterAccordion .accordion-body p {
+    padding: 0px 0px 0px 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.AsterAccordion .accordion-body p::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    background: url(../img/double-tick-indicator.png) no-repeat;
+    background-position: 0 0%;
+}
+.AsterAccordion .accordion-item .accordion-button{
+    background-color: #fff;
+    border-bottom: 1px solid #ECECFF;
+}
+.AsterAccordion .accordion-item {
+    background-color: #fff;
+	border:none;
+}
+.AsterAccordion .accordion-button {
+  color: #1D5AA6;
+  font-family:  'Stag Sans';
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  text-align: left;
+  padding: 23px 4px 25px 0px;
+  background: #fff;
+}
+.AsterAccordion .accordion-button:not(.collapsed) {
+    color: #1D5AA6;
+    background-color: none;
+    box-shadow: none;
+}
+.AsterAccordion .accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    padding: 30px 30px 0 30px;
+    margin: 30px 15px;
+    text-align: center;
+    min-height: 250px;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+    background: #fff;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}	
+.testimonials {
+    padding: 60px 0;
+}
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+.testimonials .testimonial-item .testimonial-img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+.testimonials .section-title h2{
+  color: #22B78E;
+  font-family: 'Stag Sans';
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  padding-bottom:0px;
+  text-align: left;
+}
+.testimonials .section-title p {
+  color: #000000;
+  font-family:  'Stag Sans';
+  font-size: 15px;
+  line-height: 21px;
+  text-align: left;
+}
+.testimonials .testimonial-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+    display: inline-block;
+}
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px 0;
+	display: block;
+}
+.testimonials-content {
+    text-align: left;
+    padding-left: 90px;
+}
+.testimonials-img-left{
+	float:left;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.testimonialsLeft{
+	display:block;
+}
+.testimonialsDesc{
+	display:block;
+	text-align:left;
+	margin-top:30px;
+}
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+#footer {
+    background: #272727;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+#footer .social-icons {
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+#footer .social-icons a{
+	margin:2px;
+}
+#footer .copyright {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.backtopTop.active {
+    visibility: visible;
+    opacity: 1;
+}
+.backtopTop {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+@media (max-width: 1024px){
+	#hero {
+    background: url(../img/Banner_mage.png) center top no-repeat;
+    background-size: cover;
+}
+#hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.home-left {
+    margin-bottom: 40px;
+}
+section.about-us .col-lg-5 {
+    text-align:center;
+}
+}
+
+@media (max-width: 768px){
+	#hero {
+    background: url(../img/Banner_mage.png) center top no-repeat;
+    background-size: cover;
+}
+#hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.home-left {
+    margin-bottom: 40px;
+}
+section.about-us .col-lg-5 {
+    text-align:center;
+}
+}
+
+@media (max-width: 568px){
+	.testimonials .section-title h2 {
+    color: #22B78E;
+    font-family: 'Stag Sans';
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.testimonials .section-title p {
+    color: #000000;
+    font-family: 'Stag Sans';
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+.AsterAccordion .accordion-button {
+    color: #1D5AA6;
+    font-family: 'Stag Sans';
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    line-height: 20px;
+    text-align: left;
+    padding: 23px 4px 25px 0px;
+    background: #fff;
+}
+.services .icon-box {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+}
+.services .description {
+    font-family: 'Stag Sans';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+.AsterSignsMain h2 {
+    color: #22B78E;
+    font-family: 'Stag Sans';
+    font-size: 25px;
+    letter-spacing: 1.28px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.AsterAbout-Desc h2 {
+    color: #22B78E;
+    font-family: 'Stag Sans';
+    font-size: 25px;
+    letter-spacing: 1.28px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.doctorsMain {
+    color: #22B78E;
+    font-family: 'Stag Sans';
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: center;
+}
+section {
+    padding: 30px 0;
+}
+#hero {
+    background: url(../img/Banner_mage.png) center top no-repeat;
+    background-size: cover;
+}
+#hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+#hero .asterContent h1 {
+    color: #FFFFFF;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.28px;
+    line-height: 25px;
+    text-align: left;
+}
+#hero .asterContent h2 {
+    color: #FFFFFF;
+    font-family: StagSans;
+    font-family: 'Stag Sans';
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 300;
+}
+.asterLogo{
+	margin-bottom: 1rem;
+	margin-top:0px;
+}
+.home-left {
+    margin-bottom: 25px;
+}
+#hero .home-right h2 {
+    font-size: 20px;
+}
+.home-right .php-email-form {
+    background-color: #FFFFFF;
+    box-shadow: -4px 2px 13px 0 rgb(85 95 126 / 18%);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bone-marrow-transpla {
+    color: #FFFFFF;
+    font-family: 'Stag Sans';
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+.replacement-of-disea {
+    color: #000000;
+    font-family: Stag Sans;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+.medicines-and-in-cer {
+    color: #000000;
+    font-family: 'Stag Sans';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+section.about-us.aos-init.aos-animate {
+    padding: 30px 0px;
+}
+.services .icon {
+    margin: 0 auto 0px auto;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.g-recaptcha {
+transform:scale(0.80);
+transform-origin:0 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.g-recaptcha {
+transform:scale(0.80);
+transform-origin:0 0;
+}
+}
+
+
+
