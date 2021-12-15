@@ -373,7 +373,7 @@ section.AsterAccordion {
     padding: 30px 30px 0 30px;
     margin: 30px 15px;
     text-align: center;
-    min-height: 250px;
+    min-height: 210px;
     box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
     background: #fff;
 }
@@ -435,6 +435,16 @@ section.AsterAccordion {
     color: #999;
     margin: 0 0 15px 0;
 	display: block;
+}
+.testimonialsLeft::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 10%;
+    top: 18%;
+    background: url(../img/icons22.png) no-repeat;
+    background-position: 0 0%;
 }
 .testimonials-content {
     text-align: left;
